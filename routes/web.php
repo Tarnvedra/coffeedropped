@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/store' ,'StoreController@index');
+Route::get('/recycling' ,'RecyclingController@index');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+

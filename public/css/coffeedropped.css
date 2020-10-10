@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+}
+
+picture {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.navbar {
+    margin-bottom: -25px;
+    padding-bottom: 0;
+}
+
+.navbar li {
+    font-size: 30px;
+}
+
+#coffee img {
+    width: 600px;
+    height: 400px;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+footer {
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
